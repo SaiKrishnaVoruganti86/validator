@@ -18,17 +18,20 @@ data = {
             "name": "Ampath1",
             "location": {
                 "address": "Equinix MI1, Miami, FL",
-                "latitude": 25.76,
-                "longitude": -80.19
+                "latitude": "86.86",
+                "longitude": "-86.86"
             },
             "ports": [
                 {
-                    "id": "urn:sdx:port:amlight.net:Ampath1:1",
+                    "id": "urn:sdx:port:zaoxi.ac.za:s1:port_to_brazil",
                     "name": "Ampath1-eth1",
                     "node": "urn:sdx:node:amlight.net:Ampath1",
                     "type": "1GE",
+                    #"mtu": 4000,
+                    #"nni": "urn:sdx:link:zaoxi.ac.za:sacs_sub_link",
                     "status": "up",
-                    "state": "disabled"
+                    "state": "maintenance",
+                    #"private": ["state", "mtu"]
                 }
             ],
             "status": "error",
